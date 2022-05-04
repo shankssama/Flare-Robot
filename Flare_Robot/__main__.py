@@ -74,14 +74,16 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/2cd6f97e0cf04d63cabf4.mp4"
+GROUP_START_IMG = "https://te.legra.ph/file/5fc5bb8969d2327efa381.mp4"
 
-FLARE_PHOTO = "https://telegra.ph/file/2a171330f0ad1fc02465c.jpg"
+FLARE_PHOTO = "https://te.legra.ph/file/64104b32c98a8a050633b.jpg"
 
 PM_START_TEXT = """
 ────「 {} 」────
 *Hey! {},*
 * I am an Anime themed advance group management bot with a lots of Features.*
+➖➖➖➖➖➖➖➖➖➖➖
+* I am Captian of Red Hair Crew. I am Powerful.
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
@@ -111,16 +113,16 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/OtaKu_Gang1"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/Weebs_Ocean"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="🚑 Support",
-                             url=f"https://telegram.dog/Freia_Support"),
+                             url=f"https://telegram.dog/Shanks_bot_Support"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Freia_Updates")
+                             url="https://t.me/Shanks_Bot_Updates")
                      ], 
     ]
 
